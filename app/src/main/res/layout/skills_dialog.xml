@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_height="wrap_content"
+                android:text="Choose the skills"
+                android:id="@+id/skillText"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="20dp"
+                android:textColor="#610096"
+                android:textSize="30sp"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Android Application Development"
+                    android:id="@+id/skill0"
+                    android:textColor="#610096"
+                    android:buttonTint="#610096"
+                    android:backgroundTint="#8b00d6"
+                     />
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Web Development"
+                    android:id="@+id/skill1"
+                    android:textColor="#610096"
+                    android:buttonTint="#610096"
+                    android:backgroundTint="#8b00d6"
+                     />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/skill2"
+                    android:textColor="#610096"
+                    android:buttonTint="#610096"
+                    android:backgroundTint="#8b00d6"
+                    android:text="iOS application Development"
+                     />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#610096"
+                    android:id="@+id/skill3"
+                    android:buttonTint="#610096"
+                    android:backgroundTint="#8b00d6"
+                    android:text="UI/UX Development" />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#610096"
+                    android:id="@+id/skill4"
+                    android:buttonTint="#610096"
+                    android:backgroundTint="#8b00d6"
+                    android:text="Back end development"/>
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:textColor="#610096"
+                    android:id="@+id/skill5"
+                    android:buttonTint="#610096"
+                    android:backgroundTint="#8b00d6"
+                    android:layout_height="wrap_content"
+                    android:text="Database Management" />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:textColor="#610096"
+                    android:id="@+id/skill6"
+                    android:buttonTint="#610096"
+                    android:backgroundTint="#8b00d6"
+                    android:layout_height="wrap_content"
+                    android:text="Game Development" />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:textColor="#610096"
+                    android:buttonTint="#610096"
+                    android:id="@+id/skill7"
+                    android:backgroundTint="#8b00d6"
+                    android:layout_height="wrap_content"
+                    android:text="Graphic designing"/>
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:textColor="#610096"
+                    android:id="@+id/skill8"
+                    android:buttonTint="#610096"
+                    android:backgroundTint="#8b00d6"
+                    android:layout_height="wrap_content"
+                    android:text="Material designing" />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:textColor="#610096"
+                    android:id="@+id/skill9"
+                    android:buttonTint="#610096"
+                    android:backgroundTint="#8b00d6"
+                    android:layout_height="wrap_content"
+                    android:text="Python Frameworks" />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:textColor="#610096"
+                    android:id="@+id/skill10"
+                    android:buttonTint="#610096"
+                    android:backgroundTint="#8b00d6"
+                    android:layout_height="wrap_content"
+                    android:text="Object oriented programming" />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:textColor="#610096"
+                    android:id="@+id/skill11"
+                    android:buttonTint="#610096"
+                    android:backgroundTint="#8b00d6"
+                    android:layout_height="wrap_content"
+                    android:text="Personality development" />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:textColor="#610096"
+                    android:id="@+id/skill12"
+                    android:buttonTint="#610096"
+                    android:backgroundTint="#8b00d6"
+                    android:layout_height="wrap_content"
+                    android:text="Debating" />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:textColor="#610096"
+                    android:id="@+id/skill13"
+                    android:buttonTint="#610096"
+                    android:backgroundTint="#8b00d6"
+                    android:layout_height="wrap_content"
+                    android:text="Machine Learning" />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:id="@+id/skillRegister"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/custom_button"
+                    android:text="Proceed"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:textColor="#610096"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

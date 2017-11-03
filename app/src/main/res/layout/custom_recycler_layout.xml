@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="20dp"
+    android:layout_height="wrap_content">
+<android.support.v7.widget.CardView
+    android:layout_width="match_parent"
+    app:cardElevation="2dp"
+    app:cardCornerRadius="@dimen/cardview_default_radius"
+    app:cardUseCompatPadding="true"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:id="@+id/teacherLayout"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#610096"
+            android:layout_marginTop="15dp"
+            android:textSize="25sp"
+            android:paddingLeft="10dp"
+            android:id="@+id/teacherName"
+            android:text="Name of the teacher"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingTop="15dp"
+            android:textColor="#000000"
+            android:id="@+id/teacherAge"
+            android:textSize="15sp"
+            android:text="Age"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:textColor="#000000"
+            android:paddingTop="5dp"
+            android:id="@+id/teacherEmail"
+            android:textSize="15sp"
+            android:text="E-mail ID: "/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textColor="#000000"
+            android:paddingLeft="10dp"
+            android:paddingTop="5dp"
+            android:id="@+id/teacherContact"
+            android:text="Contact: 9876543210"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:id="@+id/teacherInterestedButton"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="15dp"
+            android:padding="10dp"
+            android:background="@drawable/custom_button"
+            android:textColor="#610096"
+            android:text="Interested"
+            />
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
+</LinearLayout>
